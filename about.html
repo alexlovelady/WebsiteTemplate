@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - {{Business Name}}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="header.js" defer></script>
+</head>
+<body>
+    <section class="about container">
+        <h2>About Our Facility</h2>
+        <p>{{FACILITY_DESCRIPTION_1}}</p>
+        <p>{{FACILITY_DESCRIPTION_2}}</p>
+        <p>{{FACILITY_DESCRIPTION_3}}</p>
+    </section>
+
+    <section class="about container">
+        <h2>About Our Staff</h2>
+        <p>{{STAFF_DESCRIPTION}}</p>
+    </section>
+
+    <section class="team container">
+        <h2>Meet Our Team</h2>
+
+        <div class="team-member-profile">
+            <img src="images/teamMember1.jpg" alt="{{TEAM_MEMBER_1_NAME}}">
+            <div class="team-member-info">
+                <h3>{{TEAM_MEMBER_1_NAME}}</h3>
+                <p>{{TEAM_MEMBER_1_TITLE}}</p>
+                <p>{{TEAM_MEMBER_1_BIO}}</p>
+                <button onclick="window.location.href='teamMember1.html'">Read More</button>
+            </div>
+        </div>
+
+        <div class="team-member-profile">
+            <img src="images/teamMember2.jpg" alt="{{TEAM_MEMBER_2_NAME}}">
+            <div class="team-member-info">
+                <h3>{{TEAM_MEMBER_2_NAME}}</h3>
+                <p>{{TEAM_MEMBER_2_TITLE}}</p>
+                <p>{{TEAM_MEMBER_2_BIO}}</p>
+                <button onclick="window.location.href='teamMember2.html'">Read More</button>
+            </div>
+        </div>
+
+        <div class="team-member-profile">
+            <img src="images/teamMember3.jpg" alt="{{TEAM_MEMBER_3_NAME}}">
+            <div class="team-member-info">
+                <h3>{{TEAM_MEMBER_3_NAME}}</h3>
+                <p>{{TEAM_MEMBER_3_TITLE}}</p>
+                <p>{{TEAM_MEMBER_3_BIO}}</p>
+                <button onclick="window.location.href='teamMember3.html'">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="pictures container">
+        <h2>Take a Tour</h2>
+        <div class="picture-wrapper">
+            <div class="picture-item">
+                <img src="images/room1.jpg" alt="Room 1">
+                <div class="overlay">Room 1</div>
+            </div>
+            <div class="picture-item">
+                <img src="images/room2.jpg" alt="Room 2">
+                <div class="overlay">Room 2</div>
+            </div>
+            <div class="picture-item">
+                <img src="images/room3.jpg" alt="Room 3">
+                <div class="overlay">Room 3</div>
+            </div>
+            <div class="picture-item">
+                <img src="images/room4.jpg" alt="Room 4">
+                <div class="overlay">Room 4</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

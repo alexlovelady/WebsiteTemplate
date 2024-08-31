@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgery Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="header.js" defer></script>
+    <script src="testimonials.js" defer></script>
+</head>
+<body>
+    <section class="introduction container">
+        <h2>{{INTRO_HEADING}}</h2>
+        <p>{{INTRO_TEXT}}</p>
+        <button onclick="window.location.href='about.html'">Learn More About Us</button>
+    </section>
+    <section id="services" class="container">
+        <h2>{{SERVICES_HEADING}}</h2>
+        <div class="grid">
+            <div class="card" onclick="window.location.href='service1.html'">
+                <h3>{{SERVICE_1_TITLE}}</h3>
+                <p>{{SERVICE_1_DESCRIPTION}}</p>
+            </div>
+            <div class="card" onclick="window.location.href='service2.html'">
+                <h3>{{SERVICE_2_TITLE}}</h3>
+                <p>{{SERVICE_2_DESCRIPTION}}</p>
+            </div>
+            <div class="card" onclick="window.location.href='service3.html'">
+                <h3>{{SERVICE_3_TITLE}}</h3>
+                <p>{{SERVICE_3_DESCRIPTION}}</p>
+            </div>
+            <div class="card" onclick="window.location.href='service4.html'">
+                <h3>{{SERVICE_4_TITLE}}</h3>
+                <p>{{SERVICE_4_DESCRIPTION}}</p>
+            </div>
+            <div class="card" onclick="window.location.href='service5.html'">
+                <h3>{{SERVICE_5_TITLE}}</h3>
+                <p>{{SERVICE_5_DESCRIPTION}}</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials container">
+        <h2>{{TESTIMONIALS_HEADING}}</h2>
+    </section>
+</body>
+</html>
